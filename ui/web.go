@@ -16,7 +16,6 @@ package ui
 import (
 	"fmt"
 	"net/http"
-	_ "net/http/pprof" // Comment this line to disable pprof endpoint.
 	"path"
 
 	"github.com/go-kit/log"
